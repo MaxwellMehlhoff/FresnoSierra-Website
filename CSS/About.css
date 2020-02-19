@@ -1,0 +1,42 @@
+.about-section {
+    width: 100%;
+    height: 1250px;
+    background-color: rgb(123,155,166);
+}
+
+.about-container {
+    background-color: lightgray;
+    width: 90%;
+    height: 1250px;
+    margin: auto;
+}
+
+.about-container {
+    padding-top: 75px;
+    padding-left: 40px;
+    font-family: 'Monoton', cursive;
+    font-size: 75px;
+    color: goldenrod;
+    text-align: left;
+    letter-spacing: 2px; 
+    padding-right: 40px;
+}
+
+.about-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-box {
+    width: 33%;
+    height: 200px;
+    border: 1px solid black;
+    transition: all .5s ease;
+    margin-top: 4px;
+}
+
+.about-box:hover{
+    width: 908px;
+    height: 410px;
+}
