@@ -32,11 +32,11 @@
     width: 33%;
     height: 200px;
     border: 1px solid black;
-    transition: all .5s ease;
+    transition: all 1s ease;
     margin-top: 4px;
 }
 
-.about-box:hover{
+.about-box:hover {
     width: 908px;
     height: 410px;
 }

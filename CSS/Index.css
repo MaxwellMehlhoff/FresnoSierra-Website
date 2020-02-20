@@ -33,6 +33,7 @@ body {
     margin: 10px;
     color: gold;
     font-size: 20px;
+    margin-right: 15px;
 }
 
 .list-item:hover {
@@ -64,6 +65,7 @@ body {
     height: 200px;
     background-color: rgb(123,155,166);
     margin-top: -10px;
+    border-bottom: 2px solid darkred;
 }
 
 .section-content {
@@ -76,6 +78,7 @@ body {
     color: rgb(0,32,105);
     font-family: 'Bebas Neue', cursive;
     font-size: 18px;
+    border-bottom: 2px solid darkred;
 }
 
 /* End of Section */
