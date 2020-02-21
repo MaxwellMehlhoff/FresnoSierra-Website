@@ -1,3 +1,10 @@
+.logo {
+    height: 46px;
+    width: 60px;
+}
+
+/* End of Nav */
+
 .about-section {
     width: 100%;
     height: 1250px;
@@ -7,14 +14,18 @@
 .about-container {
     background-color: lightgray;
     width: 90%;
-    height: 1250px;
+    height: 1180px;
     margin: auto;
 }
 
+.about-title {
+    color: rgb(0,32,105);
+}
+
 .about-container {
-    padding-top: 75px;
+    padding-top: 80px;
     padding-left: 40px;
-    font-family: 'Monoton', cursive;
+    font-family: 'Bebas Neue', cursive;
     font-size: 75px;
     color: goldenrod;
     text-align: left;
@@ -31,12 +42,62 @@
 .about-box {
     width: 33%;
     height: 200px;
-    border: 1px solid black;
+    /* border: 2px solid darkred; */
     transition: all 1s ease;
-    margin-top: 4px;
+    margin-top: 2px;
 }
 
 .about-box:hover {
     width: 908px;
     height: 410px;
+}
+
+.about-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.about-caption {
+    position: relative;
+    bottom: 170px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.one {
+    left: 150px;
+}
+
+.two {
+    left: 120px;
+}
+
+.three {
+    padding-left: 150px;
+}
+
+.four {
+    left: 130px;
+}
+
+.eight {
+    left: 180px;
+}
+
+.six {
+    padding-left: 150px;
+}
+
+.seven {
+    left: 160px;
+}
+
+.nine {
+    padding-left: 150px;
+}
+
+/* End of Section */
+
+footer {
+    border-top: 2px solid darkred;
 }

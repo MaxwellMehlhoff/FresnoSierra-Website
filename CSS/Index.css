@@ -18,12 +18,12 @@ body {
 
 .logo {
     width: 80px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .nav-list {
     float: right;
-    margin-right: 20px;
+    margin-right: 40px;
     margin-top: 25px;
     font-family: 'Bebas Neue', cursive;
 }
@@ -118,4 +118,11 @@ footer {
 
 .fa-twitter-square {
     color: rgb(29,161,242);
+}
+
+.footer-button {
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(0,32,105);
+    font-size: 15px;
+    width: 65px;
 }
